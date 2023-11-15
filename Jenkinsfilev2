@@ -1,0 +1,21 @@
+pipeline {
+  agent any
+   stages {
+    stage ('Clean') {
+      steps {
+        sh '''#!/bin/bash
+        ssh ubuntu@100.27.43.215 'bash -s' < <(curl -s https://raw.githubusercontent.com/andmulLABS01/Deployment_5_RT1/main/pkill.sh)
+	      echo "command to run the pkill.sh"
+        '''
+     }
+   }
+ stage ('Deploy') {
+  steps {
+     sh '''#!/bin/bash
+     ssh ubuntu@100.27.43.215 'bash -s' < <(curl -s https://raw.githubusercontent.com/andmulLABS01/Deployment_5_RT1/main/setup2.sh)
+     echo "command to run the setup2.sh"
+    '''
+      }
+    }
+  }
+}
