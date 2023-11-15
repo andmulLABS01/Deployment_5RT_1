@@ -69,7 +69,7 @@ and Flask application with a Guincorn webserver and SQLite database.
 
 
 ### 6. Check the application on the second instance!!
-- Here is the screenshot of the application. Click [HERE](https://github.com/andmulLABS01/Deployment_5AM/blob/main/Deployment_5a.PNG)
+- Here is the screenshot of the application. Click [HERE](https://github.com/andmulLABS01/Deployment_5RT_1/blob/main/Deployment_5RT1a.PNG)
 	
 ### 7. Now make a change to the HTML and then run the Jenkinsfilev2	
 	- Steps in the Jenkinsfilev2 are as follows:
@@ -79,13 +79,14 @@ and Flask application with a Guincorn webserver and SQLite database.
 		- SSH into the second instance and run the setup2.sh script 
 		
 #### 7a. Make the change to the home.HTML
-	- I changed the font color from black to darkblueS
+	- I changed the font color from black to darkblue in the Welcome paragraph.
 #### 7b. View the application after the change
-- Click [HERE](https://github.com/andmulLABS01/Deployment_5AM/blob/main/Deployment_5b.PNG)
+- Click [HERE](https://github.com/andmulLABS01/Deployment_5RT_1/blob/main/Deployment_5RT1b.PNG)
 
 ### 8. How did you decide to run the Jenkinsfilev2? 
 
 - I changed the file path in Jenkins configuration section from Jenkinsfilev1 to Jenkinsfilev2.
+- You could also have created a second branch put the Jenkinsfilev2 in that branch and run it from there.
 
 ### 9. Should you place both instances in the public subnet? Or should you place them in a private subnet? Explain why?
 
@@ -95,7 +96,7 @@ However, we could place parts of the second instance, application and database t
 
 ## System Diagram:
 
-To view the diagram of the system design/deployment pipeline, click [HERE](https://github.com/andmulLABS01/Deployment_5AM/blob/main/Deployment_5.drawio.png)
+To view the diagram of the system design/deployment pipeline, click [HERE](https://github.com/andmulLABS01/Deployment_5RT_1/blob/main/DPRT1_main.tf)
 
 ## Issues/Troubleshooting:
 
