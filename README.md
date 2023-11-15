@@ -14,12 +14,8 @@ and Flask application with a Guincorn webserver and SQLite database.
 ## Steps:
 
 ### 1. Create a VPC with Terraform, and the VPC must have only the components listed: 1 VPC, 2 AZs, 2 Public Subnets, 2 EC2s, 1 Route Table, Security Group Ports: 8080, 8000, 22
-   - This process is to give us practice using Terraform to create our AWS infrastructure using resource blocks.  Here is the link to the main.tf file: Click [HERE](https://github.com/andmulLABS01/Deployment_5AM/blob/main/main.tf)
-   - Also we will utilize Git to continue gaining experience in the day-to-day operations of a DevOps engineer.
+   - This process is to give us practice using Terraform to create our AWS infrastructure using resource blocks.  Here is the link to the main.tf file: Click [HERE](https://github.com/andmulLABS01/Deployment_5RT_1/blob/main/DPRT1_main.tf)
    - We must update several files and merge them into the main branch.
-	  - Create a new repository on GitHub
-	  - Use git commands to clone the Kura Deployment 5 repository to a local instance and push it to the new repository.
-	  - Branch, update and merge Jenkinsfilev1, Jenkinsfilev2, setup.sh, and setup2.sh into main branch.
 
 ### 2. For the first instance follow the below instructions: Jenkins Server
    - The below instructions create public and private keys that will allow us to SSH into the second instance
